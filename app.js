@@ -26,7 +26,7 @@ console.log(fizzBuzz('Hellooo', 'Worldone'));
 // is a minor, a youth, or an elder. Anyone below 18 years is a minor,
 // anyone between 18 and 36 years is a youth and the rest are elders.
 
-const yearOfBirth = prompt('Please enter your year of birth', '');
+const yearOfBirth = Number(prompt('Please enter your year of birth', ''));
 const currentYear = 2024;
 const age = currentYear - yearOfBirth;
 if (age < 18) {
